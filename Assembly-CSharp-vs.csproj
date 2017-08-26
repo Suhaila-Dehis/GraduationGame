@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B2D7B16E-67E5-5D2E-5E12-4E0751FE774A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\ContainerCollider.cs" />
+     <Compile Include="Assets\Scripts\ContainerGeberation.cs" />
+     <Compile Include="Assets\Scripts\Exit.cs" />
+     <Compile Include="Assets\Scripts\Hidden_1.cs" />
+     <Compile Include="Assets\Scripts\Hidden_2.cs" />
+     <Compile Include="Assets\Scripts\Hidden_3.cs" />
+     <Compile Include="Assets\Scripts\Hidden_4.cs" />
+     <Compile Include="Assets\Scripts\Hidden_5.cs" />
+     <Compile Include="Assets\Scripts\Hidden_6.cs" />
+     <Compile Include="Assets\Scripts\Hidden_Animals.cs" />
+     <Compile Include="Assets\Scripts\Hidden_Objects.cs" />
+     <Compile Include="Assets\Scripts\Hidden_loading.cs" />
+     <Compile Include="Assets\Scripts\Hidden_obj_1.cs" />
+     <Compile Include="Assets\Scripts\Hidden_obj_2.cs" />
+     <Compile Include="Assets\Scripts\LevelSelect.cs" />
+     <Compile Include="Assets\Scripts\LevelUnlock.cs" />
+     <Compile Include="Assets\Scripts\LoadingCode.cs" />
+     <Compile Include="Assets\Scripts\MusicControler.cs" />
+     <Compile Include="Assets\Scripts\ObjectsGenerat.cs" />
+     <Compile Include="Assets\Scripts\ObjectsPlay.cs" />
+     <Compile Include="Assets\Scripts\Pause.cs" />
+     <Compile Include="Assets\Scripts\Scrolling.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\WheelsMotion.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\AlphabetMenu\backgrounMusic.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\AlphabetMenu\leftArrowMainMenu.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\AlphabetMenu\level_selected.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\AlphabetMenu\level_unlocker.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\AlphabetMenu\prefabs_script.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\allAlphabetScenes\leftArrowScene.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\allAlphabetScenes\mute.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet1\FinalSpriteScript.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet1\lettersScene1.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet1\rightArrowScene1.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet1\shapesScene1.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet2\lettersScene2.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet2\rightArrowScene2.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet2\shapesScene2.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet3\lettersScene3.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet3\rightArrowScene3.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet3\shapesScene3.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet4\lettersScene4.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet4\rightArrowScene4.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet4\shapesScene4.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet5\lettersScene5.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet5\rightArrowScene5.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet5\shapesScene5.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet6\lettersScene6.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet6\rightArrowScene6.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet6\shapesScene6.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet7\lettersScene7.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet7\rightArrowScene7.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet7\shapesScene7.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet8\lettersScene8.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet8\rightArrowScene8.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet8\shapesScene8.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet9\FinalSpriteScript9.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet9\lettersScene9.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet9\rightArrowScene9.cs" />
+     <Compile Include="Assets\Scripts\alphabetScripts\alphabet9\shapesScene9.cs" />
+     <Compile Include="Assets\Scripts\chooser.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
